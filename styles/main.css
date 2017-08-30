@@ -1,3 +1,12 @@
+#contact-information {
+    list-style: none;
+}
+
+#contact-information li span:first-of-type {
+    width: 100px;
+    display:inline-block;
+    font-weight: bold;
+}
 
 h1 {
     position: absolute;
@@ -5,10 +14,14 @@ h1 {
 
 h2 {
     font-size: 35px;
+    line-height: 35px;
+    margin: 20px 0;
 }
 
 h3 {
     font-size: 25px;
+    line-height: 25px;
+    margin: 15px 0;
 }
 
 img {

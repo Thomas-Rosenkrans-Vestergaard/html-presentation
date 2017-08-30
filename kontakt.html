@@ -44,38 +44,51 @@
                     <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp welcome-card portfolio-card">
                         <img class="mdl-card__title" src="img/interests.jpg" border="0" alt="Interesser">
                         <div class="mdl-card__supporting-text">
-
                             <h2>Kontakt</h2>
-
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
-                                Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-                                placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
-                                erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit
-                                eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                                Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus
-                                faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
-                                volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
-                                Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-                                placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
-                                erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit
-                                eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                                Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus
-                                faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
-                                volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
-                                Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-                                placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
-                                erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit
-                                eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                                Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus
-                                faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
-                                volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                            <p>Her kan du finde mine kontaktoplysninger, hvis disse interesserer dig.</p>
+                            <ul id="contact-information">
+                                <li>
+                                    <span>Navn</span>
+                                    <span>Thomas Rosenkrans Vestergaard</span>
+                                </li>
+                                <li>
+                                    <span>Email</span>
+                                    <span>nope@nope.dk</span>
+                                </li>
+                                <li>
+                                    <span>Addresse</span>
+                                    <span>Nopegade 1, 1234 Nopeby</span>
+                                </li>
+                                <li>
+                                    <span>Telefon</span>
+                                    <span>3141 5926</span>
+                                </li>
+                            </ul>
+                            <p>Du kan også få kontakt til mig, ved hjælp af den understående formular.
+                                Denne virker selvfølgeligt ikke og er kun inkluderet så siden bliver udfyldt en smule.</p>
+                            <form action="https://formspree.io/email@example.com" method="POST" class="form-contact">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name"
+                                           name="name">
+                                    <label class="mdl-textfield__label" for="Name">Navn</label>
+                                    <span class="mdl-textfield__error">Letters and spaces only</span>
+                                </div>
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" id="Email" name="_replyto">
+                                    <label class="mdl-textfield__label" for="Email">Email</label>
+                                </div>
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <textarea class="mdl-textfield__input" type="text" rows="5" id="note"
+                                              name="message"></textarea>
+                                    <label class="mdl-textfield__label" for="note">Besked</label>
+                                </div>
+                                <p>
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                            type="submit">
+                                        Submit
+                                    </button>
+                                </p>
+                            </form>
                         </div>
                     </div>
                 </div>
