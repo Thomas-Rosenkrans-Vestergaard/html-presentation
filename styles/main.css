@@ -101,9 +101,11 @@ img {
 }
 
 .welcome-card > .mdl-card__title {
-  color: #fff;
-  height: 290px;
-  background: url("../img/cover.jpg") center/cover;
+    color: #fff;
+    max-height: 290px;
+    height:auto;
+    width: auto;
+    padding: 0px;
 }
 
 .event-card {
