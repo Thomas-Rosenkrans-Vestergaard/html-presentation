@@ -1,4 +1,16 @@
 
+h1 {
+    position: absolute;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 img {
   max-width: 100%;
 }
