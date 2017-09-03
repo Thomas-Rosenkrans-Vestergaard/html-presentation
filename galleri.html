@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galleri</title>
+    <meta name="description" content="Assignment website."/>
+    <link href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+</head>
+<body>
+<header>
+    <h1>Thomas Rosenkrans Vestergaard</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Introduktion</a>
+            </li>
+            <li>
+                <a href="galleri.html">Galleri</a>
+            </li>
+            <li>
+                <a href="kontakt.html">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Galleri</h2>
+    <div id="gallery">
+        <p>Jeg nyder som mange andre mennesker at se spændende videor. Herunder har jeg samlet en liste af spændende
+            videor, som jeg håber du for stor nydelse af. De er selvfølgeligt organiseret i et brugervenligt galleri.
+            Benyt de numereret knapper herunder, for at skifte videoen som bliver afspillet.</p>
+        <ul id="gallery-thumbs"></ul>
+        <div id="gallery-display">
+            <video id="gallery-player" src="videos/gallery/1.mp4" controls></video>
+        </div>
+    </div>
+</main>
+</body>
+</html>

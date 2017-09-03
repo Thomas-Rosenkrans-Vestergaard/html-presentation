@@ -1,101 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kontakt</title>
-    <meta name="description" content="Demo of Material design portfolio template by TemplateFlip.com."/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-</head>
-<body id="top">
-<h1>Thomas Rosenkrans Vestergaard</h1>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header mdl-layout__header--waterfall site-header">
-        <div class="mdl-layout__header-row site-logo-row">
-            <span class="mdl-layout__title">
-                <div class="site-logo"></div>
-                <span class="site-description">Thomas Rosenkrans Vestergaard</span>
-            </span>
-        </div>
-        <div class="mdl-layout__header-row site-navigation-row mdl-layout--large-screen-only">
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link" href="index.html">Introduktion</a>
-                <a class="mdl-navigation__link" href="interesser.html">Interesser</a>
-                <a class="mdl-navigation__link" href="kontakt.html">Kontakt</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kontakt</title>
+        <meta name="description" content="Assignment website."/>
+        <link href="css/main.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Thomas Rosenkrans Vestergaard</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Introduktion</a>
+                    </li>
+                    <li>
+                        <a href="galleri.html">Galleri</a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
             </nav>
-        </div>
-    </header>
-    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-            <a class="mdl-navigation__link" href="index.html">Introduktion</a>
-            <a class="mdl-navigation__link" href="interesser.html">Interesser</a>
-            <a class="mdl-navigation__link" href="kontakt.html">Kontakt</a>
-        </nav>
-    </div>
-    <main class="mdl-layout__content">
-        <div class="site-content">
-            <div class="container">
-                <div class="mdl-grid site-max-width">
-                    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp welcome-card portfolio-card">
-                        <img class="mdl-card__title" src="img/interests.jpg" border="0" alt="Interesser">
-                        <div class="mdl-card__supporting-text">
-                            <h2>Kontakt</h2>
-                            <p>Her kan du finde mine kontaktoplysninger, hvis disse interesserer dig.</p>
-                            <ul id="contact-information">
-                                <li>
-                                    <span>Navn</span>
-                                    <span>Thomas Rosenkrans Vestergaard</span>
-                                </li>
-                                <li>
-                                    <span>Email</span>
-                                    <span>nope@nope.dk</span>
-                                </li>
-                                <li>
-                                    <span>Addresse</span>
-                                    <span>Nopegade 1, 1234 Nopeby</span>
-                                </li>
-                                <li>
-                                    <span>Telefon</span>
-                                    <span>3141 5926</span>
-                                </li>
-                            </ul>
-                            <p>Du kan også få kontakt til mig, ved hjælp af den understående formular.
-                                Denne virker selvfølgeligt ikke og er kun inkluderet så siden bliver udfyldt en smule.</p>
-                            <form action="https://formspree.io/email@example.com" method="POST" class="form-contact">
-                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name"
-                                           name="name">
-                                    <label class="mdl-textfield__label" for="Name">Navn</label>
-                                    <span class="mdl-textfield__error">Letters and spaces only</span>
-                                </div>
-                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="text" id="Email" name="_replyto">
-                                    <label class="mdl-textfield__label" for="Email">Email</label>
-                                </div>
-                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <textarea class="mdl-textfield__input" type="text" rows="5" id="note"
-                                              name="message"></textarea>
-                                    <label class="mdl-textfield__label" for="note">Besked</label>
-                                </div>
-                                <p>
-                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-                                            type="submit">
-                                        Submit
-                                    </button>
-                                </p>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
-</div>
-</body>
+        </header>
+        <main>
+            <h2>Kontakt</h2>
+            <p>Herunder findes mine kontaktinformationer organiseret i en brugervenligt tabel.</p>
+            <table id="contact-table">
+                <tbody>
+                    <tr>
+                        <th>Navn</th>
+                        <td>Thomas Rosenkrans Vestergaard</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>example@hotmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>Mobil</th>
+                        <td>87 65 43 21</td>
+                    </tr>
+                    <tr>
+                        <th>Addresse</th>
+                        <td>Datamatikervej 1, Datamatikerby 1234 DatamatikerLand</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Herunder findes en kontaktformular, som kan benyttes til at kontakte mig.</p>
+            <form action="/index#tak" id="contact-form">
+                <input type="text" name="name" id="name-input" placeholder="Indtast dit navn her." required>
+                <input type="email" name="email" id="email-input" placeholder="Indtast din email addresse her." required>
+                <textarea name="message" id="message-input" cols="30" rows="10" placeholder="Indtast din besked her." required></textarea>
+                <input type="submit" name="submit" value="Indsend">
+            </form>
+        </main>
+    </body>
 </html>
